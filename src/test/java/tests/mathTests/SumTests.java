@@ -19,8 +19,7 @@ public class SumTests {
         int b = 0;
         int sum;
         sum = a + b;
-        Assertions.assertEquals(1, sum);
-        System.out.println("Результат = 1");
+        Assertions.assertEquals(1, sum, "Ошибка суммы");
     }
 
     @Test
@@ -30,8 +29,7 @@ public class SumTests {
         int b = 1;
         int sum;
         sum = a + b;
-        Assertions.assertEquals(2, sum);
-        System.out.println("Результат = 2");
+        Assertions.assertEquals(2, sum, "Ошибка суммы");
     }
 
     @Test
@@ -41,8 +39,7 @@ public class SumTests {
         int b = 1;
         int sum;
         sum = a + b;
-        Assertions.assertEquals(3, sum);
-        System.out.println("Результат = 3");
+        Assertions.assertEquals(3, sum, "Ошибка суммы");
     }
 
     @Test
@@ -52,8 +49,7 @@ public class SumTests {
         int b = 2;
         int sum;
         sum = a + b;
-        Assertions.assertEquals(4, sum);
-        System.out.println("Результат = 4");
+        Assertions.assertEquals(4, sum, "Ошибка суммы");
     }
 
     @Test
@@ -63,7 +59,6 @@ public class SumTests {
         int b = 3;
         int sum;
         sum = a + b;
-        Assertions.assertEquals(5, sum);
-        System.out.println("Результат = 5");
+        Assertions.assertEquals(5, sum, "Ошибка суммы");
     }
 }

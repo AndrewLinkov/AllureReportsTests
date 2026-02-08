@@ -19,7 +19,8 @@ public class SubtractionTests {
         int b = 1;
         int subtraction;
         subtraction = a - b;
-        Assertions.assertEquals(1, subtraction, "Ошибка");
+        Assertions.assertEquals(1, subtraction, "Ошибка вычитания");
+        System.out.println("Результат = " + subtraction);
     }
 
     @Test
@@ -29,7 +30,8 @@ public class SubtractionTests {
         int b = 1;
         int subtraction;
         subtraction = a - b;
-        Assertions.assertEquals(2, subtraction, "Ошибка");
+        Assertions.assertEquals(2, subtraction, "Ошибка вычитания");
+        System.out.println("Результат = " + subtraction);
     }
 
     @Test
@@ -39,7 +41,8 @@ public class SubtractionTests {
         int b = 1;
         int subtraction;
         subtraction = a - b;
-        Assertions.assertEquals(3, subtraction, "Ошибка");
+        Assertions.assertEquals(3, subtraction, "Ошибка вычитания");
+        System.out.println("Результат = " + subtraction);
     }
 
     @Test
@@ -49,8 +52,8 @@ public class SubtractionTests {
         int b = 1;
         int subtraction;
         subtraction = a - b;
-        Assertions.assertEquals(4, subtraction);
-        System.out.println("Результат = 4");
+        Assertions.assertEquals(4, subtraction, "Ошибка вычитания");
+        System.out.println("Результат = " + subtraction);
     }
 
     @Test
@@ -60,7 +63,7 @@ public class SubtractionTests {
         int b = 1;
         int subtraction;
         subtraction = a - b;
-        Assertions.assertEquals(5, subtraction);
-        System.out.println("Результат = 5");
+        Assertions.assertEquals(5, subtraction, "Ошибка вычитания");
+        System.out.println("Результат = " + subtraction);
     }
 }

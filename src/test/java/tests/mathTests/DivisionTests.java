@@ -17,8 +17,9 @@ public class DivisionTests {
     public void division1() {
         int a = 1;
         int b = 1;
-        int subtraction = a / b;
-        Assertions.assertEquals(1, subtraction, "Ошибка");
+        int division = a / b;
+        Assertions.assertEquals(1, division, "Ошибка деления");
+        System.out.println("Результат = " + division);
     }
 
     @Test
@@ -26,8 +27,9 @@ public class DivisionTests {
     public void division2() {
         int a = 4;
         int b = 2;
-        int subtraction = a / b;
-        Assertions.assertEquals(2, subtraction, "Ошибка");
+        int division = a / b;
+        Assertions.assertEquals(2, division, "Ошибка деления");
+        System.out.println("Результат = " + division);
     }
 
     @Test
@@ -35,8 +37,9 @@ public class DivisionTests {
     public void division3() {
         int a = 9;
         int b = 3;
-        int subtraction = a / b;
-        Assertions.assertEquals(3, subtraction, "Ошибка");
+        int division = a / b;
+        Assertions.assertEquals(3, division, "Ошибка деления");
+        System.out.println("Результат = " + division);
     }
 
     @Test
@@ -44,8 +47,9 @@ public class DivisionTests {
     public void division4() {
         int a = 12;
         int b = 3;
-        int subtraction = a / b;
-        Assertions.assertEquals(4, subtraction, "Ошибка");
+        int division = a / b;
+        Assertions.assertEquals(4, division, "Ошибка деления");
+        System.out.println("Результат = " + division);
     }
 
     @Test
@@ -53,7 +57,8 @@ public class DivisionTests {
     public void division5() {
         int a = 15;
         int b = 3;
-        int subtraction = a / b;
-        Assertions.assertEquals(5, subtraction, "Ошибка");
+        int division = a / b;
+        Assertions.assertEquals(5, division, "Ошибка деления");
+        System.out.println("Результат = " + division);
     }
 }

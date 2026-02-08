@@ -19,8 +19,8 @@ public class MultiplicationTests {
         int b = 1;
         int multiplication;
         multiplication = a * b;
-        Assertions.assertEquals(1, multiplication);
-        System.out.println("Результат = 1");
+        Assertions.assertEquals(1, multiplication, "Ошибка умножения");
+        System.out.println("Результат = " + multiplication);
     }
 
     @Test
@@ -30,8 +30,8 @@ public class MultiplicationTests {
         int b = 2;
         int multiplication;
         multiplication = a * b;
-        Assertions.assertEquals(2, multiplication);
-        System.out.println("Результат = 2");
+        Assertions.assertEquals(2, multiplication, "Ошибка умножения");
+        System.out.println("Результат = " + multiplication);
     }
 
     @Test
@@ -41,8 +41,8 @@ public class MultiplicationTests {
         int b = 3;
         int multiplication;
         multiplication = a * b;
-        Assertions.assertEquals(3, multiplication);
-        System.out.println("Результат = 3");
+        Assertions.assertEquals(3, multiplication, "Ошибка умножения");
+        System.out.println("Результат = " + multiplication);
     }
 
     @Test
@@ -52,8 +52,8 @@ public class MultiplicationTests {
         int b = 4;
         int multiplication;
         multiplication = a * b;
-        Assertions.assertEquals(4, multiplication);
-        System.out.println("Результат = 4");
+        Assertions.assertEquals(4, multiplication, "Ошибка умножения");
+        System.out.println("Результат = " + multiplication);
     }
 
     @Test
@@ -63,7 +63,7 @@ public class MultiplicationTests {
         int b = 5;
         int multiplication;
         multiplication = a * b;
-        Assertions.assertEquals(5, multiplication);
-        System.out.println("Результат = 5");
+        Assertions.assertEquals(5, multiplication, "Ошибка умножения");
+        System.out.println("Результат = " + multiplication);
     }
 }
