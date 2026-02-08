@@ -1,18 +1,12 @@
-package tests.mathTests;
+package tests;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-import static tests.interfaces.INameTags.*;
-
-@Tag(REGRESS)
-@Tag(DIVISION)
 public class DivisionTests {
 
     @Test
-    @Tag(SMOKE)
     @DisplayName("Результат деления 1")
     public void division1() {
         int a = 1;

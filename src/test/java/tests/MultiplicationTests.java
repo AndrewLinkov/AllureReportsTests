@@ -1,18 +1,12 @@
-package tests.mathTests;
+package tests;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-import static tests.interfaces.INameTags.*;
-
-@Tag(REGRESS)
-@Tag(MULTIPLICATION)
 public class MultiplicationTests {
 
     @Test
-    @Tag(SMOKE)
     @DisplayName("Результат умножения 1")
     public void multiplication1() {
         int a = 1;

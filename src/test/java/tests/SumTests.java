@@ -1,18 +1,12 @@
-package tests.mathTests;
+package tests;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-import static tests.interfaces.INameTags.*;
-
-@Tag(REGRESS)
-@Tag(SUM)
 public class SumTests {
 
     @Test
-    @Tag(SMOKE)
     @DisplayName("Результат суммы 1")
     public void sum1() {
         int a = 1;
